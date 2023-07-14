@@ -13,10 +13,10 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+from datetime import datetime
 
 # -- Project information -----------------------------------------------------
-
+now = datetime.now()
 project = 'HuggingDragon'
 copyright = '2023, Yuqi Chen, Tian Sun'
 author = 'Yuqi Chen, Tian Sun'
@@ -30,8 +30,16 @@ release = 'release 1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = ['recommonmark',
+              'sphinx.ext.autodoc',
+              'sphinx.ext.napoleon',
+              'sphinx.ext.viewcode'
+              # 'sphinx.ext.autodoc',
+              # 'sphinx.ext.mathjax',
+              # 'sphinx.ext.ifconfig',
+              # 'sphinx.ext.viewcode',
+              # 'sphinx.ext.githubpages',
+              ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -53,3 +61,5 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+source_suffix = ['.rst', '.md']

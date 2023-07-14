@@ -10,9 +10,9 @@ Welcome to HuggingDragon's documentation!
    :maxdepth: 1
    :caption: Get Started
 
-   get_started/introduction
-   get_started/install
-   get_started/quick_start
+   Introduction<get_started/introduction.md>
+   Install<get_started/install.md>
+   Quick-Start<get_started/quick_start.md>
 
 
 
