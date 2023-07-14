@@ -7,8 +7,12 @@ Welcome to HuggingDragon's documentation!
 =========================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Get Started
+
+   get_started/introduction
+   get_started/install
+   get_started/quick_start
 
 
 
@@ -16,5 +20,4 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
