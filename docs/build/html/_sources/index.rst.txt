@@ -3,21 +3,35 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to HuggingDragon's documentation!
-=========================================
+########################
+HuggingDragon's Document
+########################
+
+HuggingDragon is an advanced and unified framework designed to revolutionize trajectory-based applications within the realm of intelligent transportation systems (ITS). Our objective is to offer researchers a robust experimental tool and a convenient development framework, facilitating the exploration and implementation of trajectory-based applications.
+
+#################
+Fast Installation
+#################
+
+`HuggingDragon` can only be installed from source code.
+
+Please execute the following command to get the source code.
+
+```shell
+git clone https://github.com/chenyuqi990215/HuggingDragon.git
+cd HuggingDragon
+```
+
+----
+
+.. rst-class:: noclear
+.. tip:: Please make sure that all the data and checkpoints are used for **research purpose only**.
 
 .. toctree::
+   :hidden:
    :maxdepth: 1
    :caption: Get Started
 
-   Introduction<get_started/introduction.md>
-   Install<get_started/install.md>
+   Support Tasks<get_started/task.md>
+   Features<get_started/features.md>
    Quick-Start<get_started/quick_start.md>
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
