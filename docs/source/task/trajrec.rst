@@ -1,9 +1,8 @@
 #########################
 Task: Trajectory Recovery
 #########################
-------
 
-.. image:: _static/trajrec.pdf
+.. image:: ../_static/trajrec.svg
 
 ############
 Introduction

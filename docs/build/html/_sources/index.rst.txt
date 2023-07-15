@@ -42,4 +42,4 @@ cd HuggingDragon
    :maxdepth: 1
    :caption: Tasks
 
-   Trajectory-Recovery<task/trajrec.md>
+   Trajectory-Recovery<task/trajrec.rst>
