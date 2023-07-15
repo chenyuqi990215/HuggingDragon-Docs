@@ -33,6 +33,13 @@ cd HuggingDragon
    :maxdepth: 1
    :caption: Get Started
 
-   Support Tasks<get_started/task.md>
+   Support-Tasks<get_started/task.md>
    Features<get_started/features.md>
    Quick-Start<get_started/quick_start.md>
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Tasks
+
+   Trajectory-Recovery<task/trajrec.md>
