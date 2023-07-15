@@ -1,16 +1,46 @@
-##################
-Uberspace 7 manual
-##################
+.. HuggingDragon documentation master file, created by
+   sphinx-quickstart on Sun Jul  9 21:07:11 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-.. image:: _static/big-rocket.svg
+########################
+HuggingDragon's Document
+########################
 
-Uberspace is a hosting platform targeted at people who want to look behind the scenes, do things we didn’t anticipate and generally prefer working with a text-based console. Our objective is to not only host the content you’d like to see on the web, but also to introduce you to Linux and basic shell usage.
+
+HuggingDragon is an advanced and unified framework designed to revolutionize trajectory-based applications within the realm of intelligent transportation systems (ITS). Our objective is to offer researchers a robust experimental tool and a convenient development framework, facilitating the exploration and implementation of trajectory-based applications.
 
 ----
 
 .. rst-class:: noclear
-.. tip:: If you're looking for guides and how to install certain tools like `WordPress <https://lab.uberspace.de/en/guide_wordpress.html>`_ check out the `⚛️ Uberlab <https://lab.uberspace.de/en/>`_!
+.. tip:: Please make sure that all the datasets and checkpoints are used for **research purpose only**.
 
-#########
-Changelog
-#########
+
+#################
+Fast Installation
+#################
+
+`HuggingDragon` can only be installed from source code.
+
+Please execute the following command to get the source code.
+
+.. code-block:: console
+
+   git clone https://github.com/chenyuqi990215/HuggingDragon.git
+   cd HuggingDragon
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Get Started
+
+   Support-Tasks<get_started/task.rst>
+   Features<get_started/features.rst>
+   Quick-Start<get_started/quick_start.rst>
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Tasks
+
+   Trajectory-Recovery<task/trajrec.rst>
