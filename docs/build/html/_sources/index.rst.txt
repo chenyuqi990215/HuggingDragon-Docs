@@ -7,6 +7,8 @@
 HuggingDragon's Document
 ########################
 
+.. image:: _static/huggingdragon.svg
+
 HuggingDragon is an advanced and unified framework designed to revolutionize trajectory-based applications within the realm of intelligent transportation systems (ITS). Our objective is to offer researchers a robust experimental tool and a convenient development framework, facilitating the exploration and implementation of trajectory-based applications.
 
 ----
