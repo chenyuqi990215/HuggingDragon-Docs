@@ -33,9 +33,9 @@ cd HuggingDragon
    :maxdepth: 1
    :caption: Get Started
 
-   Support-Tasks<get_started/task.md>
-   Features<get_started/features.md>
-   Quick-Start<get_started/quick_start.md>
+   Support-Tasks<get_started/task.rst>
+   Features<get_started/features.rst>
+   Quick-Start<get_started/quick_start.rst>
 
 .. toctree::
    :hidden:

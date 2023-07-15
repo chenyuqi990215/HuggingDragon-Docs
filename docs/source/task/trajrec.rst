@@ -19,4 +19,4 @@ Given a low-sample raw GPS trajectory $\tau$ with measurement errors (e.g., oran
 Citations
 =========
 
-.. [1] Author(s). (Year). Title of the Work. Publisher.
+.. [1] Chen, Yuqi, et al. "RNTrajRec: Road Network Enhanced Trajectory Recovery with Spatial-Temporal Transformer." arXiv preprint arXiv:2211.13234 (2022).
