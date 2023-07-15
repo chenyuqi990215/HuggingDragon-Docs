@@ -12,9 +12,7 @@ GPS trajectories are essential foundations for applications such as travel time 
 Formal Definition
 =================
 
-.. image:: ../_static/trajrec-2.svg
-
-Given a low-sample raw GPS trajectory $\tau$ with measurement errors (e.g., orange GPS points in the Figure), the task of trajectory recovery aims to recover the real map-matched trajectory (e.g., blue GPS points in the figure). Specifically, for each low-sample trajectory, it infers the missing GPS points and maps each GPS point (including the GPS points in the input trajectory) onto the road network to obtain the real GPS locations of the moving trajectory [1]_.
+Given a low-sample raw GPS trajectory with measurement errors, the task of trajectory recovery aims to recover the real map-matched trajectory. Specifically, for each low-sample trajectory, it infers the missing GPS points and maps each GPS point (including the GPS points in the input trajectory) onto the road network to obtain the real GPS locations of the moving trajectory [1]_.
 
 Citations
 =========
