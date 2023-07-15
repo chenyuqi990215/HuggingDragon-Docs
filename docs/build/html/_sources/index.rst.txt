@@ -23,10 +23,10 @@ Fast Installation
 
 Please execute the following command to get the source code.
 
-```shell
-git clone https://github.com/chenyuqi990215/HuggingDragon.git
-cd HuggingDragon
-```
+.. code-block:: console
+
+   git clone https://github.com/chenyuqi990215/HuggingDragon.git
+   cd HuggingDragon
 
 .. toctree::
    :hidden:
