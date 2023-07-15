@@ -9,6 +9,12 @@ HuggingDragon's Document
 
 HuggingDragon is an advanced and unified framework designed to revolutionize trajectory-based applications within the realm of intelligent transportation systems (ITS). Our objective is to offer researchers a robust experimental tool and a convenient development framework, facilitating the exploration and implementation of trajectory-based applications.
 
+----
+
+.. rst-class:: noclear
+.. tip:: Please make sure that all the datasets and checkpoints are used for **research purpose only**.
+
+
 #################
 Fast Installation
 #################
@@ -21,11 +27,6 @@ Please execute the following command to get the source code.
 git clone https://github.com/chenyuqi990215/HuggingDragon.git
 cd HuggingDragon
 ```
-
-----
-
-.. rst-class:: noclear
-.. tip:: Please make sure that all the data and checkpoints are used for **research purpose only**.
 
 .. toctree::
    :hidden:
