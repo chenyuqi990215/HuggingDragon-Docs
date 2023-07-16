@@ -17,6 +17,11 @@ The data format of raw trajectory is simple. Each trajectory is represented as f
 
 For raw trajectory without map matching ``rid`` can be ``-1``.
 
+.. tip::
+
+    * ``-cnt``: Specifies the ID of the trajectory.
+    * ``<--optionals>``: Specifies the extra information of the trajectory, like ``--uid <uid>``.
+
 
 Perform Map Matching
 ====================
