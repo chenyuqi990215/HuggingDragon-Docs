@@ -63,5 +63,8 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 html_logo = "_static/logo.svg"
+html_css_files = [
+    '_css/common.css',
+]
 
 source_suffix = ['.rst', '.md']
