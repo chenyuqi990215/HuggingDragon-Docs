@@ -33,7 +33,8 @@ release = 'release 1.0'
 extensions = ['recommonmark',
               'sphinx.ext.autodoc',
               'sphinx.ext.napoleon',
-              'sphinx.ext.viewcode'
+              'sphinx.ext.viewcode',
+              'sphinx_tabs.tabs'
               # 'sphinx.ext.autodoc',
               # 'sphinx.ext.mathjax',
               # 'sphinx.ext.ifconfig',
@@ -68,3 +69,6 @@ html_css_files = [
 ]
 
 source_suffix = ['.rst', '.md']
+
+sphinx_tabs_valid_builders = ['linkcheck']
+sphinx_tabs_disable_tab_closing = True

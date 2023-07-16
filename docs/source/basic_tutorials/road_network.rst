@@ -31,62 +31,74 @@ Create From Open Street Map
 
 OpenStreetMap (OSM) is a collaborative mapping project that aims to create a free and editable map of the world. It provides an open and accessible platform for individuals and organizations to contribute geographic data, including roads, buildings, landmarks, and points of interest. OSM data is widely used by various applications, researchers, and developers for mapping, navigation, and spatial analysis purposes.
 
-* Step 1: Download OSM Data
+To create a new road network from OSM website, please follow the following steps.
 
-Start by downloading the OSM data for your desired area from `Geofabrik <https://download.geofabrik.de/>`_ in the ``.osm.pbf`` format.
+.. tabs::
 
-Geofabrik provides pre-processed extracts of OSM data for different regions and countries, making it easier to obtain the data you need.
+    .. tab:: Step 1
 
-* Step 2: Download ``osm2rn`` tool.
+        * Download OSM Data
 
-The osm2rn tool is a powerful software utility designed to extract data from OpenStreetMap (OSM) data. To install the tool, run the following commands.
+        Start by downloading the OSM data for your desired area from `Geofabrik <https://download.geofabrik.de/>`_ in the ``.osm.pbf`` format.
 
-.. code-block:: console
+        Geofabrik provides pre-processed extracts of OSM data for different regions and countries, making it easier to obtain the data you need.
 
-    git clone https://github.com/sjruan/osm2rn.git
-    cd osm2rn
+    .. tab:: Step 2
 
-.. tip:: Please follow `osm2rn <https://github.com/sjruan/osm2rn>`_ to install the requirements.
+        * Download ``osm2rn`` tool.
 
-Note that to successfully install ``GDAL``, please use the following command instead of the command recommended in ``osm2rn``.
+        The osm2rn tool is a powerful software utility designed to extract data from OpenStreetMap (OSM) data. To install the tool, run the following commands.
 
-Remove conda-forge and use the default channel as suggested in the `issue <https://github.com/ContinuumIO/anaconda-issues/issues/10351>`_:
+        .. code-block:: console
 
-.. code-block:: console
+            git clone https://github.com/sjruan/osm2rn.git
+            cd osm2rn
 
-    conda install --channel defaults gdal
+        .. tip:: Please follow `osm2rn <https://github.com/sjruan/osm2rn>`_ to install the requirements.
 
-* Step3: Clip the data according to your region of interest (following ``osm2rn``).
+        Note that to successfully install ``GDAL``, please use the following command instead of the command recommended in ``osm2rn``.
 
-To clip the OSM data using ``osm2rn``, run the following command
+        Remove conda-forge and use the default channel as suggested in the `issue <https://github.com/ContinuumIO/anaconda-issues/issues/10351>`_:
 
-.. code-block:: console
+        .. code-block:: console
 
-    python osm_clip.py --input_path asia-latest.osm.pbf --output_path interest_region.osm.pbf --min_lat <min_lat> --min_lng <min_lng> --max_lat <max_lat> --max_lng <max_lng>
+            conda install --channel defaults gdal --
 
-.. tip::
+    .. tab:: Step3
 
-    * ``input_path``: Specifies the path to the input OSM data file.
-    * ``output_path``: Specifies the path for the output file that will contain the clipped data.
-    * ``min_lat``: Specifies the minimum latitude value of the region of interest.
-    * ``min_lng``: Specifies the minimum longitude value of the region of interest.
-    * ``max_lat``: Specifies the maximum latitude value of the region of interest.
-    * ``max_lng``: Specifies the maximum longitude value of the region of interest.
+        * Clip the data according to your region of interest (following ``osm2rn``).
 
-    Make sure to replace ``<min_lat>``, ``<min_lng>``, ``<max_lat>``, and ``<max_lng>`` with the appropriate values for your specific region of interest.
+        To clip the OSM data using ``osm2rn``, run the following command
 
-* Step 4: Run ``scipts/osm2rn.py`` and store the road network.
+        .. code-block:: console
 
-In the final step of the preprocessing phase, you need to run the modified ``osm2rn.py`` script to generate the road network file in our desired format.
+            python osm_clip.py --input_path asia-latest.osm.pbf --output_path interest_region.osm.pbf --min_lat <min_lat> --min_lng <min_lng> --max_lat <max_lat> --max_lng <max_lng>
 
-.. code-block:: console
+        .. tip::
 
-    python -m scripts.osm2rn --input_path interest_region.osm.pbf --output_path interest_region
+            * ``input_path``: Specifies the path to the input OSM data file.
+            * ``output_path``: Specifies the path for the output file that will contain the clipped data.
+            * ``min_lat``: Specifies the minimum latitude value of the region of interest.
+            * ``min_lng``: Specifies the minimum longitude value of the region of interest.
+            * ``max_lat``: Specifies the maximum latitude value of the region of interest.
+            * ``max_lng``: Specifies the maximum longitude value of the region of interest.
 
-.. tip::
+            Make sure to replace ``<min_lat>``, ``<min_lng>``, ``<max_lat>``, and ``<max_lng>`` with the appropriate values for your specific region of interest.
 
-    * Replace ``interest_region.osm.pbf`` with the path and filename of the clipped OSM data file obtained in the previous step.
-    * Replace ``interest_region`` with the desired output path and filename for the generated road network file.
+    .. tab:: Step 4
+
+        * Run ``scipts/osm2rn.py`` and store the road network.
+
+        In the final step of the preprocessing phase, you need to run the modified ``osm2rn.py`` script to generate the road network file in our desired format.
+
+        .. code-block:: console
+
+            python -m scripts.osm2rn --input_path interest_region.osm.pbf --output_path interest_region
+
+        .. tip::
+
+            * Replace ``interest_region.osm.pbf`` with the path and filename of the clipped OSM data file obtained in the previous step.
+            * Replace ``interest_region`` with the desired output path and filename for the generated road network file.
 
 
 Extract Extra POI features
