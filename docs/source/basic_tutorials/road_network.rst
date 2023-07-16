@@ -39,7 +39,7 @@ To create a new road network from OSM website, please follow the following steps
 
         * Download OSM Data
 
-        Start by downloading the OSM data for your desired area from `Geofabrik <https://download.geofabrik.de/>`_ in the ``.osm.pbf`` format.
+        Download the OSM data for your desired area from `Geofabrik <https://download.geofabrik.de/>`_ in the ``.osm.pbf`` format.
 
         Geofabrik provides pre-processed extracts of OSM data for different regions and countries, making it easier to obtain the data you need.
 
@@ -62,13 +62,13 @@ To create a new road network from OSM website, please follow the following steps
 
         .. code-block:: console
 
-            conda install --channel defaults gdal --
+            conda install --channel defaults gdal
 
     .. tab:: Step3
 
         * Clip the data according to your region of interest (following ``osm2rn``).
 
-        To clip the OSM data using ``osm2rn``, run the following command
+        To clip the OSM data using ``osm2rn``, run the following command.
 
         .. code-block:: console
 
@@ -106,43 +106,51 @@ Extract Extra POI features
 
 Extracting Extra Points of Interest (POI) features from OpenStreetMap (OSM) data enables the extraction of specific information about various locations such as restaurants, banks, parks, and landmarks. By leveraging the rich geospatial data in OSM, this process provides valuable insights for mapping, analysis, and decision-making purposes. To extract POI features from OSM data, please follow the following steps.
 
-* Step 1: Install ``osmosis`` tool.
+.. tabs::
 
-``Osmosis`` is a powerful command-line tool for manipulating and processing OpenStreetMap (OSM) data, allowing users to perform various operations such as filtering, merging, and transforming OSM data to meet specific requirements. To install the tool, run the following commands:
+    .. tab:: Step 1
 
-.. code-block:: console
+        * Install ``osmosis`` tool.
 
-    wget https://github.com/openstreetmap/osmosis/releases/download/0.48.3/osmosis-0.48.3.tgz
-    mkdir osmosis
-    mv osmosis-0.48.3.tgz osmosis
-    cd osmosis
-    tar xvfz osmosis-0.48.3.tgz
-    rm osmosis-0.48.3.tgz
-    chmod a+x bin/osmosis
+        ``Osmosis`` is a powerful command-line tool for manipulating and processing OpenStreetMap (OSM) data, allowing users to perform various operations such as filtering, merging, and transforming OSM data to meet specific requirements. To install the tool, run the following commands:
 
-* Step 2: Extract POIs from ``.osm.pbf`` format files using ``osmosis`` tool.
+        .. code-block:: console
 
-To extract POI features using ``osmosis`` tool, run the following commands:
+            wget https://github.com/openstreetmap/osmosis/releases/download/0.48.3/osmosis-0.48.3.tgz
+            mkdir osmosis
+            mv osmosis-0.48.3.tgz osmosis
+            cd osmosis
+            tar xvfz osmosis-0.48.3.tgz
+            rm osmosis-0.48.3.tgz
+            chmod a+x bin/osmosis
 
-.. code-block:: console
+    .. tab:: Step 2
 
-    bin/osmosis --rbf interest_region.osm.pbf --nk keyList="amenity" --wx interest_region.osm
+        * Extract POIs from ``.osm.pbf`` format files using ``osmosis`` tool.
 
-.. tip:: Please ensure that ``Java`` is installed.
+        To extract POI features using ``osmosis`` tool, run the following commands:
 
-* Step 3: Run ``scripts/osm2poi.py`` to extract POIs from xml.
+        .. code-block:: console
 
-In the final step, you need to run the following command to generate ``poiOSM.txt``:
+            bin/osmosis --rbf interest_region.osm.pbf --nk keyList="amenity" --wx interest_region.osm
 
-.. code-block:: console
+        .. tip:: Please ensure that ``Java`` is installed.
 
-    python -m scripts.osm2poi --input_path interest_region.osm --output_path interest_region
+    ..tab:: Step 3
 
-.. tip:: ``output_path`` is a dictionary instead of the path to the file.
+        * Run ``scripts/osm2poi.py`` to extract POIs from xml.
 
-.. note::
+        In the final step, you need to run the following command to generate ``poiOSM.txt``:
 
-    We follow `website <https://wiki.openstreetmap.org/wiki/Key:amenity>`_ to map each POI type to category label.
+        .. code-block:: console
+
+            python -m scripts.osm2poi --input_path interest_region.osm --output_path interest_region
+
+        .. tip:: ``output_path`` is a dictionary instead of the path to the file.
+
+        .. note::
+
+            We follow `website <https://wiki.openstreetmap.org/wiki/Key:amenity>`_ to map each POI type to category label.
 
 Convert from Libcity format to ours
 ===================================
