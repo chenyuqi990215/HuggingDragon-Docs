@@ -17,7 +17,7 @@ from datetime import datetime
 
 # -- Project information -----------------------------------------------------
 now = datetime.now()
-project = "HuggingDragon's Documentation"
+project = "HuggingDragon's Document"
 copyright = '2023, Yuqi Chen, Tian Sun'
 author = 'Yuqi Chen, Tian Sun'
 
