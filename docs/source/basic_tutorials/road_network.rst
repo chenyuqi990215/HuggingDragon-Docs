@@ -143,13 +143,13 @@ Convert from Libcity format to ours
 
 .. tip::
 
-    * input_path: Specifies the root dictionary of Libcity data.
-    * rn_prefix: Specifies the prefix name of the road network.
-    * output_rn_path: Specifies the path to store the road network.
-    * traj_prefix: Specifies the prefix name of the trajectory.
-    * output_traj_path: Specifies the path to store the trajectories.
+    * ``input_path``: Specifies the root dictionary of Libcity data.
+    * ``rn_prefix``: Specifies the prefix name of the road network.
+    * ``output_rn_path``: Specifies the path to store the road network.
+    * ``traj_prefix``: Specifies the prefix name of the trajectory.
+    * ``output_traj_path``: Specifies the path to store the trajectories.
 
-    Make sure to download required data from Libcity and replace ``<min_lat>``, ``<min_lng>``, ``<max_lat>``, and ``<max_lng>`` with the appropriate values for your specific region of interest.
+    Make sure to download required data from Libcity and replace ``<input_path>``, ``<rn_prefix>``, ``<output_rn_path>``, ``<traj_prefix>``, and ``<output_traj_path>`` with the appropriate values.
 
 For instance, to convert Beijing dataset in `link <https://github.com/aptx1231/START/blob/master/bj-data-introduction.md>`_, run
 
