@@ -11,7 +11,7 @@ File Structure of Road Network
 
     data/
     └── road_network/
-        └── <City Name>/
+        └── name/
             ├── nodeOSM.txt
             ├── edgeOSM.txt
             ├── wayTypeOSM.txt

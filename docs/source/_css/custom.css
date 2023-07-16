@@ -5,3 +5,8 @@
   float: left;
   padding: .1618em;
 }
+
+/* Change code block background color */
+.code-block {
+    background-color: #c8e6c9; /* Replace with your desired shade of green */
+}

@@ -65,7 +65,7 @@ html_static_path = ['_static']
 
 html_logo = "_static/logo.svg"
 html_css_files = [
-    '_css/common.css',
+    '_css/custom.css',
 ]
 
 source_suffix = ['.rst', '.md']
