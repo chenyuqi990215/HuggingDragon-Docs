@@ -13,8 +13,6 @@ We provide processed road networks on Porto and Beijing in `road network <https:
 
     Note that the road networks mentioned above may not be the most up-to-date version, as this information is provided solely for the purpose of reproducing the results shown in this repository.
 
-    For more information, please see :doc:`new road network <../basic_tutorials/road_network>`.
-
 Raw Trajectory Dataset
 ======================
 
