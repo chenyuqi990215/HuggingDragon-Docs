@@ -28,19 +28,55 @@ Please execute the following command to get the source code.
 
    git clone https://github.com/chenyuqi990215/HuggingDragon.git
    cd HuggingDragon
+   python setup.py install
+
+########
+Features
+########
+
+* **Unified Framework**: HuggingDragon provides a unified framework that integrates multiple trajectory-based tasks and applications within intelligent transportation systems, offering a centralized solution for various trajectory analysis needs.
+
+* **Extensibility**: HuggingDragon is designed to be extensible, allowing researchers and developers to easily incorporate new tasks, algorithms, and models into the framework, fostering flexibility and adaptability to evolving research needs.
+
+* **Comprehensive Task Support**: HuggingDragon currently supports essential tasks such as trajectory recovery and trajectory similarity, facilitating effective comparison and analysis for trajectory-based applications.
+
+* **Systematic Pipeline**: HuggingDragon provides a systematic pipeline that encompasses all necessary steps and components related to trajectory-based tasks, ensuring a structured and efficient workflow for researchers and developers.
+
+* **Reproducibility and Standardization**: HuggingDragon emphasizes reproducibility and standardization in the field of trajectory-based applications. By providing a comprehensive and consistent framework, it enables researchers to compare results, validate findings, and contribute to the advancement of the field.
+
 
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Get Started
+   :caption: Getting Started
 
-   Support-Tasks<get_started/task.rst>
-   Features<get_started/features.rst>
-   Quick-Start<get_started/quick_start.rst>
+   Download Datasets<get_started/download.rst>
+   Installation<get_started/install.rst>
+   Quick Start<get_started/quick_start.rst>
+   Project Structure<get_started/structure.rst>
 
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Tasks
+   :caption: Basic Tutorials
 
+   Create a Road Network<basic_tutorials/road_network.rst>
+   Create a Trajectory Dataset<basic_tutorials/trajectory.rst>
+   Trajectory Preprocess<basic_tutorials/preprocess.rst>
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Advanced Usage
+
+   Create a New Network<advanced/network.rst>
+   Create a New Task<advanced/task.rst>
+   Write Config File<advanced/config.rst>
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Supported Tasks
+
+   Overview<task/task.rst>
    Trajectory-Recovery<task/trajrec.rst>

@@ -21,7 +21,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Task Supports" href="get_started/task.html" /> 
+    <link rel="next" title="Download Existing Datasets" href="get_started/download.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -44,14 +44,28 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Get Started</span></p>
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="get_started/task.html">Support-Tasks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="get_started/features.html">Features</a></li>
-<li class="toctree-l1"><a class="reference internal" href="get_started/quick_start.html">Quick-Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get_started/download.html">Download Datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get_started/install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get_started/quick_start.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get_started/structure.html">Project Structure</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Tasks</span></p>
+<p class="caption" role="heading"><span class="caption-text">Basic Tutorials</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="basic_tutorials/road_network.html">Create a Road Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic_tutorials/trajectory.html">Create a Trajectory Dataset</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic_tutorials/preprocess.html">Trajectory Preprocess</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Advanced Usage</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="advanced/network.html">Create a New Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced/task.html">Create a New Task</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced/config.html">Write Config File</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Supported Tasks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="task/task.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="task/trajrec.html">Trajectory-Recovery</a></li>
 </ul>
 
@@ -94,7 +108,22 @@
 <p>Please execute the following command to get the source code.</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">git clone https://github.com/chenyuqi990215/HuggingDragon.git</span>
 <span class="go">cd HuggingDragon</span>
+<span class="go">python setup.py install</span>
 </pre></div>
+</div>
+</section>
+<section id="features">
+<h1>Features<a class="headerlink" href="#features" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p><strong>Unified Framework</strong>: HuggingDragon provides a unified framework that integrates multiple trajectory-based tasks and applications within intelligent transportation systems, offering a centralized solution for various trajectory analysis needs.</p></li>
+<li><p><strong>Extensibility</strong>: HuggingDragon is designed to be extensible, allowing researchers and developers to easily incorporate new tasks, algorithms, and models into the framework, fostering flexibility and adaptability to evolving research needs.</p></li>
+<li><p><strong>Comprehensive Task Support</strong>: HuggingDragon currently supports essential tasks such as trajectory recovery and trajectory similarity, facilitating effective comparison and analysis for trajectory-based applications.</p></li>
+<li><p><strong>Systematic Pipeline</strong>: HuggingDragon provides a systematic pipeline that encompasses all necessary steps and components related to trajectory-based tasks, ensuring a structured and efficient workflow for researchers and developers.</p></li>
+<li><p><strong>Reproducibility and Standardization</strong>: HuggingDragon emphasizes reproducibility and standardization in the field of trajectory-based applications. By providing a comprehensive and consistent framework, it enables researchers to compare results, validate findings, and contribute to the advancement of the field.</p></li>
+</ul>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
 </div>
@@ -106,7 +135,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="get_started/task.html" class="btn btn-neutral float-right" title="Task Supports" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="get_started/download.html" class="btn btn-neutral float-right" title="Download Existing Datasets" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
