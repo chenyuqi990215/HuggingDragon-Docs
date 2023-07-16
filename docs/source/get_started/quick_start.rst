@@ -23,7 +23,7 @@ Trajectory Recovery
 
         We provide the Porto dataset in `link <https://drive.google.com/file/d/1O0hozbJtYxmK4gAIGj9fM6cm-moXtzVz/view?usp=drive_link>`_.
 
-        Please download the dataset and put it under `data/trajectory/Porto/`.
+        Please download the dataset and put it under ``data/trajectory/Porto/``.
 
     .. tab:: Step 2
 

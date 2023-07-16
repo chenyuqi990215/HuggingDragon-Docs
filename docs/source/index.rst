@@ -20,7 +20,7 @@ HuggingDragon is an advanced and unified framework designed to revolutionize tra
 Fast Installation
 #################
 
-`HuggingDragon` can only be installed from source code.
+Currently, HuggingDragon can only be installed from source code.
 
 Please execute the following command to get the source code.
 
