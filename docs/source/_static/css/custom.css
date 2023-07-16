@@ -6,7 +6,6 @@
   padding: .1618em;
 }
 
-/* Change code block background color */
-.code-block {
+.highlight {
     background-color: #f1fed1; /* Replace with your desired shade of green */
 }
