@@ -26,8 +26,8 @@ File Structure of Road Network
 * ``poiOSM.txt`` (optional): This file contains data related to points of interest (POIs) in the road network, where each line contains the ID, latitude, longitude and type of each POI in the road network.
 
 
-Create From Open Street Map (OSM)
-=================================
+Create From Open Street Map
+===========================
 
 OpenStreetMap (OSM) is a collaborative mapping project that aims to create a free and editable map of the world. It provides an open and accessible platform for individuals and organizations to contribute geographic data, including roads, buildings, landmarks, and points of interest. OSM data is widely used by various applications, researchers, and developers for mapping, navigation, and spatial analysis purposes.
 
