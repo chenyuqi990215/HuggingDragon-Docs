@@ -9,3 +9,31 @@
 .highlight {
     background-color: #f1fed1; /* Replace with your desired shade of green */
 }
+
+/* footer */
+/*
+.wy-nav-content {
+  position: relative;
+  background-image: url("/_static/images/footer.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  min-height: 100vh;
+}
+
+.document {
+  min-height: 500px;
+  margin-bottom: 8rem;
+}
+
+footer {
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 80%;
+  color: #222222;
+}
+*/
