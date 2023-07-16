@@ -25,7 +25,7 @@ To perform map matching, please run the following scripts.
 
 .. code-block:: console
 
-python -m scripts.hmm --map_root <map_root> --zone_range <zone_range> --traj_path <traj_path> --tmp_path <tmp_path> --output_path <output_path>
+    python -m scripts.hmm --map_root <map_root> --zone_range <zone_range> --traj_path <traj_path> --tmp_path <tmp_path> --output_path <output_path>
 
 
 .. tip::
