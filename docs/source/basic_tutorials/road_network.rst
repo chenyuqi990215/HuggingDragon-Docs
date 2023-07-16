@@ -68,10 +68,10 @@ To clip the OSM data using ``osm2rn``, run the following command
 
     * ``input_path``: Specifies the path to the input OSM data file.
     * ``output_path``: Specifies the path for the output file that will contain the clipped data.
-    * ``min_lat``: Specifies the minimum latitude value of your region of interest.
-    * ``min_lng``: Specifies the minimum longitude value of your region of interest.
-    * ``max_lat``: Specifies the maximum latitude value of your region of interest.
-    * ``max_lng``: Specifies the maximum longitude value of your region of interest.
+    * ``min_lat``: Specifies the minimum latitude value of the region of interest.
+    * ``min_lng``: Specifies the minimum longitude value of the region of interest.
+    * ``max_lat``: Specifies the maximum latitude value of the region of interest.
+    * ``max_lng``: Specifies the maximum longitude value of the region of interest.
 
     Make sure to replace ``<min_lat>``, ``<min_lng>``, ``<max_lat>``, and ``<max_lng>`` with the appropriate values for your specific region of interest.
 
