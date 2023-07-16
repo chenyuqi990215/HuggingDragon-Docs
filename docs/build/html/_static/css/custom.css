@@ -1,0 +1,11 @@
+.wy-menu-vertical header, .wy-menu-vertical p.caption :first-child::before {
+  content: url("/_static/icon.svg");
+  margin-left: -.1618em;
+  width: 30px;
+  float: left;
+  padding: .1618em;
+}
+
+.highlight {
+    background-color: #f1fed1; /* Replace with your desired shade of green */
+}
