@@ -1,5 +1,5 @@
 .wy-menu-vertical header, .wy-menu-vertical p.caption :first-child::before {
-  content: url("/icon.svg");
+  content: url("/_static/icon.svg");
   margin-left: -.1618em;
   width: 30px;
   float: left;
