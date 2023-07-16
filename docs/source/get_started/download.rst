@@ -24,7 +24,7 @@ We provide three trajectory datasets.
 
     .. tab:: Porto
 
-        The `Porto <https://www.kaggle.com/datasets/crailtap/taxi-trajectory>`_ taxi dataset is an open dataset available on Kaggle. You can access the map-matched trajectories through `Porto link <https://drive.google.com/file/d/1O0hozbJtYxmK4gAIGj9fM6cm-moXtzVz/view?usp=drive_link>`_.
+        The `Porto <https://www.kaggle.com/datasets/crailtap/taxi-trajectory>`_ taxi dataset is an open dataset available on Kaggle. We provide map-matched trajectories in `Porto.txt <https://drive.google.com/file/d/1O0hozbJtYxmK4gAIGj9fM6cm-moXtzVz/view?usp=drive_link>`_.
 
         We also provide code for processing raw trajectory data downloaded from kaggle website.
 
@@ -34,7 +34,7 @@ We provide three trajectory datasets.
 
     .. tab:: T-drive
 
-        The `T-drive <https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/>`_ taxi dataset is an open dataset provided by Microsoft. It contains trajectory data from taxi rides. You can access the map-matched trajectories through `T-drive link <https://drive.google.com/file/d/146C0NR8w86eG9Q4WJB2RoHdIIlGVSjnj/view?usp=drive_link>`_.
+        The `T-drive <https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/>`_ taxi dataset is an open dataset provided by Microsoft. It contains trajectory data from taxi rides. We provide map-matched trajectory in `T-drive.txt <https://drive.google.com/file/d/146C0NR8w86eG9Q4WJB2RoHdIIlGVSjnj/view?usp=drive_link>`_.
 
         We also provide code for processing raw trajectory data downloaded from Microsoft website:
 
@@ -44,7 +44,7 @@ We provide three trajectory datasets.
 
     .. tab:: Beijing
 
-        The `Beijing <https://github.com/aptx1231/START/blob/master/bj-data-introduction.md>`_ taxi dataset is provided in Libcity. You can access the map-matched trajectories through `Beijing link <https://drive.google.com/file/d/17eQHZbxTK-hjbR_Na7n_7EMI_i2f9AuV/view?usp=drive_link>`_.
+        The `Beijing <https://github.com/aptx1231/START/blob/master/bj-data-introduction.md>`_ taxi dataset is provided in Libcity. We provide map-matched trajectories in `Beijing.txt <https://drive.google.com/file/d/17eQHZbxTK-hjbR_Na7n_7EMI_i2f9AuV/view?usp=drive_link>`_.
 
         .. note::
 
@@ -59,4 +59,4 @@ We provide three trajectory datasets.
 
     To generate task specific trajectory datasets, please see :doc:`preprocess <../basic_tutorials/preprocess>`.
 
-    To download the processed Porto dataset for trajectory recovery task shown in :doc:`quick start <quick_start>`, we can download from `processed link <https://drive.google.com/drive/folders/1QNADHYKQNSo574S04iyOjh4LYySSpC2N?usp=drive_link>`_.
+    We provide a processed Porto dataset for trajectory recovery task shown in :doc:`quick start <quick_start>` in `here <https://drive.google.com/drive/folders/1QNADHYKQNSo574S04iyOjh4LYySSpC2N?usp=drive_link>`_.
