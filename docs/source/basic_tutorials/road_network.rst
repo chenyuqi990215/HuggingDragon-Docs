@@ -2,7 +2,7 @@
 Creating a Road Network
 =======================
 
-In this tutorial, we show how to train with your own road network. We suggest to put road networks under ``data/road_network``.
+In this tutorial, we show how to train with your own road network. We suggest to put road networks under ``data/road_network/``.
 
 File Structure of Road Network
 ==============================
