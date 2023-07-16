@@ -41,6 +41,8 @@ To create a new road network from OSM website, please follow the following steps
 
         Download the OSM data for your desired area from `Geofabrik <https://download.geofabrik.de/>`_ in the ``.osm.pbf`` format.
 
+        .. image:: ../_static/images/osm.png
+
         Geofabrik provides pre-processed extracts of OSM data for different regions and countries, making it easier to obtain the data you need.
 
     .. tab:: Step 2
