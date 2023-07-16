@@ -15,38 +15,43 @@ Before starting, make sure you have the following:
 Trajectory Recovery
 ===================
 
-* Download the trajectory dataset
+.. tabs::
 
-We provide the Porto dataset in [link](https://drive.google.com/file/d/1O0hozbJtYxmK4gAIGj9fM6cm-moXtzVz/view?usp=drive_link).
+    .. tab:: Step 1
 
-Please download the dataset and put it under `data/trajectory/Porto/`.
+        * Download the trajectory dataset
 
-* Run the Porto dataset with MTrajRec model
+        We provide the Porto dataset in `link <https://drive.google.com/file/d/1O0hozbJtYxmK4gAIGj9fM6cm-moXtzVz/view?usp=drive_link>`_.
 
-.. code-block:: console
+        Please download the dataset and put it under `data/trajectory/Porto/`.
 
-    # Create the output directory
-    mkdir -p outputs/MTrajRec_Porto
+    .. tab:: Step 2
 
-* Run the training task
+        * Run the Porto dataset with MTrajRec model
 
-.. code-block:: console
+        .. code-block:: console
 
-    python -m huggingdragon.entry.train_trajectory_recovery config/trajectory_recovery/MTrajRec_Porto.yml
+            # Create the output directory
+            mkdir -p outputs/MTrajRec_Porto
+
+            # Run Training
+            python -m huggingdragon.entry.train_trajectory_recovery config/trajectory_recovery/MTrajRec_Porto.yml
 
 
-The results will be saved in the `outputs/MTrajRec_Porto` directory.
+        The results will be saved in the `outputs/MTrajRec_Porto` directory.
 
-* Modifying default parameters in the config file
+    .. tab:: Step 3
 
-If you want to modify the default parameters in the YAML config file, such as changing the `online_features_flag` from `false` to `true`, you can do the following:
+        * Modifying default parameters in the config file
 
-.. code-block:: console
+        If you want to modify the default parameters in the YAML config file, such as changing the `online_features_flag` from `false` to `true`, you can do the following:
 
-    mkdir -p outputs/MTrajRec_Porto_online_features_flag
+        .. code-block:: console
 
-    python -m huggingdragon.entry.train_trajectory_recovery config/trajectory_recovery/MTrajRec_Porto.yml \
-    --flag.online_features_flag true \
-    --runtime.output_dir outputs/MTrajRec_Porto_online_features_flag
+            mkdir -p outputs/MTrajRec_Porto_online_features_flag
 
-The results will be saved in the `outputs/MTrajRec_Porto_online_features_flag` directory.
+            python -m huggingdragon.entry.train_trajectory_recovery config/trajectory_recovery/MTrajRec_Porto.yml \
+                --flag.online_features_flag true \
+                --runtime.output_dir outputs/MTrajRec_Porto_online_features_flag
+
+        The results will be saved in the `outputs/MTrajRec_Porto_online_features_flag` directory.
