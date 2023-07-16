@@ -152,8 +152,8 @@ Extracting Extra Points of Interest (POI) features from OpenStreetMap (OSM) data
 
             We follow `website <https://wiki.openstreetmap.org/wiki/Key:amenity>`_ to map each POI type to category label.
 
-Convert from Libcity format to ours
-===================================
+Convert from Libcity Format
+===========================
 
 `LibCity <https://github.com/LibCity/Bigscity-LibCity>`_ is an open-source Python library developed by the Bigscity Research Group. It provides a comprehensive framework for urban computing and transportation research. We provide tools to convert trajectory datasets and road networks to our format.
 
