@@ -136,7 +136,7 @@ Extracting Extra Points of Interest (POI) features from OpenStreetMap (OSM) data
 
         .. tip:: Please ensure that ``Java`` is installed.
 
-    ..tab:: Step 3
+    .. tab:: Step 3
 
         * Run ``scripts/osm2poi.py`` to extract POIs from xml.
 
