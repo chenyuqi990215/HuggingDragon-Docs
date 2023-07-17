@@ -12,13 +12,11 @@ HuggingDragon is an advanced and unified framework designed to revolutionize tra
 
 ----
 
-.. rst-class:: noclear
 .. tip:: Please make sure that all the datasets and checkpoints are used for **research purpose only**.
 
 
-#################
 Fast Installation
-#################
+=================
 
 Currently, HuggingDragon can only be installed from source code.
 
@@ -30,9 +28,8 @@ Please execute the following command to get the source code.
    cd HuggingDragon
    python setup.py install
 
-########
 Features
-########
+========
 
 * **Unified Framework**: HuggingDragon provides a unified framework that integrates multiple trajectory-based tasks and applications within intelligent transportation systems, offering a centralized solution for various trajectory analysis needs.
 
