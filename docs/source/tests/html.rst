@@ -4,10 +4,21 @@ Test of Rendering HTML
 
 .. raw:: html
 
-   <h1>Hello, World!</h1>
-   <p>This is an example.</p>
-   <ul>
-     <li>Item 1</li>
-     <li>Item 2</li>
-     <li>Item 3</li>
-   </ul>
+   <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Input Box Example</title>
+      <script>
+        function showText() {
+          var inputText = document.getElementById("myInput").value;
+          document.getElementById("output").textContent = inputText;
+        }
+      </script>
+    </head>
+    <body>
+      <label for="myInput">Enter text:</label>
+      <input type="text" id="myInput" />
+      <button onclick="showText()">Show Text</button>
+      <p id="output"></p>
+    </body>
+    </html>
