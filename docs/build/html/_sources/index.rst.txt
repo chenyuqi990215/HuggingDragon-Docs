@@ -20,7 +20,7 @@ Fast Installation
 
 Currently, HuggingDragon can only be installed from source code.
 
-Please execute the following command to get the source code.
+To proceed with the installation, please create an environment with Python version ``3.8`` and execute the following commands:
 
 .. code-block:: console
 

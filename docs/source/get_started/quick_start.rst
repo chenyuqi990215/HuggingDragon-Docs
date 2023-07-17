@@ -10,7 +10,7 @@ Prerequisites
 Before starting, make sure you have the following:
 
 - HuggingDragon installed and set up on your machine.
-- Python 3.7 or higher installed.
+- Python version 3.8 is installed.
 
 Trajectory Recovery
 ===================
