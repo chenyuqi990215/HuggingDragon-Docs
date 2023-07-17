@@ -68,9 +68,9 @@ Features
    :caption: Advanced Usage
 
    Tips for Coding<advanced/tips.rst>
-   Create a New Network<advanced/network.rst>
-   Create a New Task<advanced/task.rst>
    Write Config File<advanced/config.rst>
+   Customize Network<advanced/network.rst>
+   Customize Task<advanced/task.rst>
 
 .. toctree::
    :hidden:
