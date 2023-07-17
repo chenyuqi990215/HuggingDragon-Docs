@@ -79,10 +79,3 @@ Features
 
    Overview<task/task.rst>
    Trajectory-Recovery<task/trajrec.rst>
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: Tests
-
-   HTML<tests/html.rst>
