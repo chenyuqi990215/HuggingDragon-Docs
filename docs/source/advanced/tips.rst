@@ -1,7 +1,8 @@
+###############
 Tips for Coding
-===============
+###############
 
-For researchers who want to use our framework but are not familiar with ``utilsd``, tools, we provide several tips for coding with our framework.
+For researchers who want to use our framework but are not familiar with ``utilsd`` tools, we provide several tips for coding with our framework.
 
 .. tip::
 

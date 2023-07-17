@@ -63,6 +63,7 @@ Features
    Create a Road Network<basic_tutorials/road_network.rst>
    Create a Trajectory Dataset<basic_tutorials/trajectory.rst>
    Trajectory Preprocess<basic_tutorials/preprocess.rst>
+   Config Settings<basic_tutorials/config.rst>
 
 .. toctree::
    :hidden:
