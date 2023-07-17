@@ -69,6 +69,7 @@ Features
    :maxdepth: 1
    :caption: Advanced Usage
 
+   Tips for Coding<advanced/tips.rst>
    Create a New Network<advanced/network.rst>
    Create a New Task<advanced/task.rst>
    Write Config File<advanced/config.rst>
