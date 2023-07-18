@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HuggingDragon’s Document &mdash; HuggingDragon&#39;s Document release 1.0 documentation</title>
@@ -13,10 +13,12 @@
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -67,11 +69,11 @@
 <p class="caption" role="heading"><span class="caption-text">Supported Tasks</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="task/task.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="task/trajrec.html">Trajectory-Recovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="task/trajrec.html">Trajectory Recovery</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Visualization</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="visualization/trajectory_recovery.html">Trajectory-Recovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="visualization/trajectory_recovery.html">Trajectory Recovery</a></li>
 </ul>
 
         </div>
@@ -99,7 +101,7 @@
            <div itemprop="articleBody">
              
   <section id="huggingdragon-s-document">
-<h1>HuggingDragon’s Document<a class="headerlink" href="#huggingdragon-s-document" title="Permalink to this headline"></a></h1>
+<h1>HuggingDragon’s Document<a class="headerlink" href="#huggingdragon-s-document" title="Permalink to this heading"></a></h1>
 <p>HuggingDragon is an advanced and unified framework designed to revolutionize trajectory-based applications within the realm of intelligent transportation systems (ITS). Our objective is to offer researchers a robust experimental tool and a convenient development framework, facilitating the exploration and implementation of trajectory-based applications.</p>
 <hr class="docutils" />
 <div class="admonition tip">
@@ -107,7 +109,7 @@
 <p>Please make sure that all the datasets and checkpoints are used for <strong>research purpose only</strong>.</p>
 </div>
 <section id="fast-installation">
-<h2>Fast Installation<a class="headerlink" href="#fast-installation" title="Permalink to this headline"></a></h2>
+<h2>Fast Installation<a class="headerlink" href="#fast-installation" title="Permalink to this heading"></a></h2>
 <p>Currently, HuggingDragon can only be installed from source code.</p>
 <p>To proceed with the installation, please create an environment with Python version <code class="docutils literal notranslate"><span class="pre">3.8</span></code> and execute the following commands:</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">git clone https://github.com/chenyuqi990215/HuggingDragon.git</span>
@@ -117,7 +119,7 @@
 </div>
 </section>
 <section id="features">
-<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline"></a></h2>
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this heading"></a></h2>
 <ul class="simple">
 <li><p><strong>Unified Framework</strong>: HuggingDragon provides a unified framework that integrates multiple trajectory-based tasks and applications within intelligent transportation systems, offering a centralized solution for various trajectory analysis needs.</p></li>
 <li><p><strong>Extensibility</strong>: HuggingDragon is designed to be extensible, allowing researchers and developers to easily incorporate new tasks, algorithms, and models into the framework, fostering flexibility and adaptability to evolving research needs.</p></li>

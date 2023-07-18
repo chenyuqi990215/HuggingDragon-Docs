@@ -78,11 +78,11 @@ Features
    :caption: Supported Tasks
 
    Overview<task/task.rst>
-   Trajectory-Recovery<task/trajrec.rst>
+   Trajectory Recovery<task/trajrec.rst>
 
 .. toctree::
    :hidden:
    :maxdepth: 1
    :caption: Visualization
 
-   Trajectory-Recovery<visualization/trajectory_recovery.rst>
+   Trajectory Recovery<visualization/trajectory_recovery.ipynb>
