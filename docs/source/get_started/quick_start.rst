@@ -38,7 +38,7 @@ Trajectory Recovery
             python -m huggingdragon.entry.train_trajectory_recovery config/trajectory_recovery/MTrajRec_Porto.yml
 
 
-        The results will be saved in the `outputs/MTrajRec_Porto` directory.
+        The results will be saved in the ``outputs/MTrajRec_Porto`` directory.
 
     .. tab:: Step 3
 
@@ -54,4 +54,4 @@ Trajectory Recovery
                 --flag.online_features_flag true \
                 --runtime.output_dir outputs/MTrajRec_Porto_online_features_flag
 
-        The results will be saved in the `outputs/MTrajRec_Porto_online_features_flag` directory.
+        The results will be saved in the ``outputs/MTrajRec_Porto_online_features_flag`` directory.
